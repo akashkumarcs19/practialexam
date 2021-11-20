@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;margin: 0;box-sizing: border-box;
+        }
+        body{
+            background:url(./backgroundimage1.jpeg);
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-size: cover ;
+        }
+        .heading{
+            padding-top: 20px;
+            height: 20vh;
+            width: 100%;
+            /* background-color: white; */
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        #logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-right: 50px;
+        }
+        #logo img{
+            height: 100px;
+            width: 100%px;
+            
+            /* display: inline-block; */
+        }
+        .itemcontainer{
+            display: flex;
+            line-height: 15vh;
+            justify-content: center;
+            align-items: center;
+            padding-right: 20px;
+           
+        }
+        .items{
+            color: white;
+            display: inline-block;
+            /* justify-content: center;
+            align-content: center; */
+            display: inline-block;
+            padding:10px;
+        }
+        .items a{
+            text-decoration: none;
+            color:white;
+            font-family: 'Roboto Slab', serif;
+            /* font-weight:bold;  */
+        font-size: 20px;
+        }
+        .main-title{
+    font-size: 50px;
+    color: rgb(228, 220, 220);
+   display: flex;
+   justify-content:left;
+   left:100px;
+   font-family:'Raleway', sans-serif;;
+}
+.btn-round{
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(228, 220, 220);;
+    display: block;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid rgb(228, 220, 220);;
+    margin-right: 10px;
+}
+.btn-round-purple{
+    font-size: medium;
+    text-decoration: none;
+    color: plum;
+    display: block;
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid plum;
+    margin-right: 10px;
+}
+.btns{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.titles{
+ letter-spacing: 6px;
+ padding-top: 100px;
+ padding-left: 50px;
+}
+.purple{
+    color: plum;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div id="logo">
+                <img src="./logocafe.jpg"></div>
+                <div>
+                <ul class="itemcontainer">
+                    <li class="items"><a href="#">CAKE DELIVERY</a></li>
+                    <li class="items"><a href="#">HOW TO ORDER</a></lI>
+                     <li class="items"><a href="#">CHECK MORE</a></li>
+                     <li class="items"><a href="#">SIGN UP</a></li>   
+                </ul>
+        </div>
+
+    </div>
+    <div class="titles">
+        <p class="main-title">WELCOME TO <span class="purple">THAPA CAFE</span>.</p>
+        <p class="main-title">HOUSE OF CAKE LOVER OO YES.</p>
+    </div>
+    <div class="btns"><a class="btn-round-purple" href="#">CLICK TO ORDER</a>
+        <a class="btn-round" href="#">SHOW ME MORE</a>
+    </div>
+    </div>
+</body>
+</html>
